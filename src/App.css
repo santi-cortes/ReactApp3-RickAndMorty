@@ -1,0 +1,83 @@
+body{
+  background-color: black;
+  color: rgb(157, 236, 38);
+  width: 100vw;
+  font-family: monospace;
+}
+
+.App{
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.header{
+  background-image: url(https://wallpaperaccess.com/full/3115119.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+  width: 100%;
+  top: 0;
+}
+
+.header p {
+  font-size: 25px;
+  text-align: center;
+  margin: 50px auto auto auto;
+  width: 70vw;
+  z-index: 100;
+}
+
+.location-card{
+  background-color: rgb(41, 41, 41);
+  width: 60%;
+  text-align: center;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.location-card-description{
+  display: flex;
+
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+
+.list{
+  width: 85%;
+  margin-top: 20px;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.character-card {
+  width: 360px;
+  font-size: 16px;
+}
+
+.footer{
+  height: 100px;
+  width: 100vw;
+  background-color: rgb(26, 30, 26);
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+
